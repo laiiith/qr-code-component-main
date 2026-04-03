@@ -1,0 +1,68 @@
+/*
+      SPACING SYSTEM (px)
+     40 / 24 / 16
+
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+
+/*
+      MAIN COLOR: #1F314F
+      GREY COLOR: #68778D
+      SECONDARY COLOR: #D5E1EF
+      */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #d5e1ef;
+  height: 100vh;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 320px;
+  height: 499px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 16px 16px 40px 16px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+.card-img {
+  height: 288px;
+  width: 288px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 1.2;
+  color: #1f314f;
+  margin-bottom: 16px;
+}
+.card-details {
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  line-height: 1.4;
+  color: #68778d;
+}
+/* .attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
